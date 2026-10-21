@@ -1,20 +1,69 @@
-# Ponto a Ponto — instaladores
+<p align="center"><img src="assets/capa.svg" alt="Ponto a Ponto — sua foto vira gráfico de crochê" width="100%"></p>
 
-Transforme fotos em gráficos de crochê. Este espaço guarda só os instaladores; não há código aqui.
+<p align="center">
+  <a href="https://pontoapontocroche.vercel.app/app/"><img alt="Abrir aplicativo" src="https://img.shields.io/badge/Abrir_aplicativo-d9694a?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
+  <a href="https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest"><img alt="Baixar última versão" src="https://img.shields.io/github/v/release/Bielicoman/ponto-a-ponto-downloads?style=for-the-badge&amp;label=Baixar&amp;color=8fa98a"></a>
+</p>
 
-**Baixe a versão mais recente em [Releases](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest).**
+<p align="center"><b>Um ateliê de gráficos de crochê no seu aparelho.</b><br>Transforme fotos, escolha entre 1.000 desenhos e personalize cada cor antes de começar.</p>
 
-| Sistema | Arquivo |
+<p align="center"><a href="#comece-aqui">Comece aqui</a> · <a href="#o-que-você-pode-fazer">Recursos</a> · <a href="#baixe-para-seu-aparelho">Downloads</a> · <a href="#veja-por-dentro">Veja por dentro</a></p>
+
+## Comece aqui
+
+**[Abrir Ponto a Ponto →](https://pontoapontocroche.vercel.app/app/)**
+
+1. Escolha uma foto, um modelo pronto ou uma grade em branco.
+2. Ajuste tamanho, fios e cores. Confira a medida usando a sua amostra.
+3. Ative **Crochetar** para acompanhar as carreiras ou exporte o gráfico.
+
+O editor funciona sem cadastro. Entre com e-mail e senha quando quiser sincronizar seus gráficos ou conversar com a Fia pela internet.
+
+## O que você pode fazer
+
+| Para criar | Para crochetar |
 |---|---|
-| Windows (instalador) | `PontoAPonto-Windows.exe` |
-| Windows (sem instalar) | `PontoAPonto-Windows-portatil.exe` |
-| Mac com chip Apple (M1 em diante) | `PontoAPonto-Mac-arm64.dmg` |
-| Mac Intel | `PontoAPonto-Mac-x64.dmg` |
-| Android | `PontoAPonto-Android.apk` |
-| iPhone e qualquer navegador | [ponto-a-ponto-croche.web.app](https://ponto-a-ponto-croche.web.app/app/) |
+| Converter uma foto em uma grade de pontos | Contar pontos e acompanhar cada carreira |
+| Buscar entre **1.000 desenhos diferentes** | Calcular dimensões pela sua amostra |
+| Editar as cores e montar nomes ou frases | Estimar fio, consultar Tex e agulha |
+| Ajustar o modelo antes de abrir no editor | Exportar **PDF, PNG e projeto editável** |
+| Conversar com a **Fia**, com conta e conexão | Guardar projetos no aparelho e sincronizar na nuvem |
 
-**No Mac**, na primeira vez, clique com o botão direito no app e escolha **Abrir**.
+As cores são editáveis; variações de paleta não são contadas como novos desenhos. O editor e a biblioteca continuam disponíveis sem internet após o primeiro carregamento. As estimativas de tamanho e fio dependem da amostra e do material.
 
-**No Android**, permita a instalação de apps desta fonte quando o celular pedir.
+## Baixe para seu aparelho
 
-Site: [ponto-a-ponto-croche.web.app](https://ponto-a-ponto-croche.web.app)
+| Seu aparelho | Instalação |
+|---|---|
+| **Windows 10/11 · 64 bits** | [Instalador](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Windows.exe) · [Portátil](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Windows-portatil.exe) |
+| **Mac com chip Apple · macOS 12+** | [Baixar DMG para M1, M2, M3 e posteriores](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Mac-arm64.dmg) |
+| **Mac Intel · macOS 12+** | [Baixar DMG Intel](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Mac-x64.dmg) |
+| **Android** | [Baixar APK](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Android.apk) |
+| **iPhone e iPad** | [Abrir no Safari](https://pontoapontocroche.vercel.app/app/) → Compartilhar → Adicionar à Tela de Início |
+| **Qualquer computador** | [Usar no navegador](https://pontoapontocroche.vercel.app/app/) |
+
+No Mac, use **Ajustes do Sistema → Privacidade e Segurança** para permitir a primeira abertura, caso seja solicitado. Os aplicativos de computador ainda não possuem certificado comercial de distribuição.
+
+A criação de imagens com IA acontece no aplicativo de computador e exige baixar os modelos. A conversa da Fia na web requer conta e internet. As mensagens online são processadas pela Groq através da Vercel; a sincronização de projetos usa Firebase.
+
+## Veja por dentro
+
+### Um ponto de partida simples
+
+![Tela inicial do aplicativo](assets/inicio.png)
+
+### Uma biblioteca para explorar
+
+![Biblioteca de modelos com filtros](assets/biblioteca.png)
+
+### Seu gráfico, suas cores
+
+![Editor com gráfico, cores e carreiras](assets/editor.png)
+
+## Ajuda e novidades
+
+- [Site e instruções de instalação](https://pontoapontocroche.vercel.app/)
+- [Última versão e histórico de downloads](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases)
+- [Relatar um problema](https://github.com/Bielicoman/ponto-a-ponto-downloads/issues/new/choose)
+
+<p align="center"><sub>Criado por Alex Ascencio · Bielicoman</sub></p>

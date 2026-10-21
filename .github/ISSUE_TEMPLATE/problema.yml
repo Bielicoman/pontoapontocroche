@@ -1,0 +1,27 @@
+name: Relatar um problema
+description: Conte o que aconteceu para ajudar a corrigir.
+title: "[Problema] "
+body:
+  - type: input
+    id: system
+    attributes:
+      label: Aparelho e sistema
+      placeholder: "Ex.: Windows 11 / Android 15 / Safari no iPhone"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versão ou endereço do site
+      placeholder: "Ex.: versão 1.1.1 ou pontoapontocroche.vercel.app"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      description: Descreva os passos e o que apareceu. Você pode anexar uma captura.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: O que você esperava que acontecesse?
