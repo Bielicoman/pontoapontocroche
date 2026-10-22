@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://pontoapontocroche.vercel.app/app/"><img alt="Abrir aplicativo" src="https://img.shields.io/badge/Abrir_aplicativo-d9694a?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
-  <a href="https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest"><img alt="Baixar última versão" src="https://img.shields.io/github/v/release/Bielicoman/ponto-a-ponto-downloads?style=for-the-badge&amp;label=Baixar&amp;color=8fa98a"></a>
+  <a href="https://github.com/Bielicoman/pontoapontocroche/releases/latest"><img alt="Baixar última versão" src="https://img.shields.io/github/v/release/Bielicoman/pontoapontocroche?style=for-the-badge&amp;label=Baixar&amp;color=8fa98a"></a>
 </p>
 
 <p align="center"><b>Um ateliê de gráficos de crochê no seu aparelho.</b><br>Transforme fotos, escolha entre 1.000 desenhos e personalize cada cor antes de começar.</p>
@@ -35,10 +35,10 @@ As cores são editáveis; variações de paleta não são contadas como novos de
 
 | Seu aparelho | Instalação |
 |---|---|
-| **Windows 10/11 · 64 bits** | [Instalador](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Windows.exe) · [Portátil](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Windows-portatil.exe) |
-| **Mac com chip Apple · macOS 12+** | [Baixar DMG para M1, M2, M3 e posteriores](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Mac-arm64.dmg) |
-| **Mac Intel · macOS 12+** | [Baixar DMG Intel](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Mac-x64.dmg) |
-| **Android** | [Baixar APK](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases/latest/download/PontoAPonto-Android.apk) |
+| **Windows 10/11 · 64 bits** | [Instalador](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Windows.exe) · [Portátil](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Windows-portatil.exe) |
+| **Mac com chip Apple · macOS 12+** | [Baixar DMG para M1, M2, M3 e posteriores](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Mac-arm64.dmg) |
+| **Mac Intel · macOS 12+** | [Baixar DMG Intel](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Mac-x64.dmg) |
+| **Android** | [Baixar APK](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Android.apk) |
 | **iPhone e iPad** | [Abrir no Safari](https://pontoapontocroche.vercel.app/app/) → Compartilhar → Adicionar à Tela de Início |
 | **Qualquer computador** | [Usar no navegador](https://pontoapontocroche.vercel.app/app/) |
 
@@ -63,7 +63,7 @@ A criação de imagens com IA acontece no aplicativo de computador e exige baixa
 ## Ajuda e novidades
 
 - [Site e instruções de instalação](https://pontoapontocroche.vercel.app/)
-- [Última versão e histórico de downloads](https://github.com/Bielicoman/ponto-a-ponto-downloads/releases)
-- [Relatar um problema](https://github.com/Bielicoman/ponto-a-ponto-downloads/issues/new/choose)
+- [Última versão e histórico de downloads](https://github.com/Bielicoman/pontoapontocroche/releases)
+- [Relatar um problema](https://github.com/Bielicoman/pontoapontocroche/issues/new/choose)
 
 <p align="center"><sub>Criado por Alex Ascencio · Bielicoman</sub></p>
