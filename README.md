@@ -47,6 +47,27 @@ No Mac, use **Ajustes do Sistema → Privacidade e Segurança** para permitir a 
 
 A Fia online conversa e cria imagens por modelos de IA gratuitos: Z-Image-Turbo no Hugging Face e, quando disponível, fila comunitária do AI Horde. Há cotas, filas e possíveis interrupções; nenhum plano pago é acionado automaticamente. Conta e internet são necessárias. Novo chat e histórico permitem retomar ou apagar conversas salvas neste aparelho. Os pedidos online passam por Vercel/Groq e pelos provedores de imagem; a sincronização de projetos usa Firebase. A opção de IA local nos instaladores de computador depende de baixar modelos.
 
+## Uso no celular, dobrável e tablet
+
+No editor, a barra de baixo dá acesso a **Ajustes**, **Gráfico**, **Cores**, **Fia** e **Crochetar**. No telefone, os painéis ocupam a parte inferior sem cobrir o gráfico. Em telas mais largas, os painéis passam para uma coluna lateral.
+
+Use **Mais ferramentas** (três pontos na barra do gráfico) para texto, emojis, imagens, desfazer, refazer, zoom e visualização. O menu de três pontos no topo reúne tema e ajuda.
+
+A Fia usa a tela inteira no telefone. **Novo chat** começa outra conversa; **Histórico** abre a lista para retomar ou apagar conversas salvas neste aparelho. **Copiar resposta** copia o texto e **Parar** interrompe a resposta. Para imagens, escolha o estilo antes de enviar.
+
+## Novidades da versão 1.1.4
+
+- Editor reorganizado para celular, dobrável e tablet, com ferramentas compactas e painéis que preservam a visualização do gráfico.
+- Fia com conversa em tela inteira no celular, respostas progressivas, copiar, parar, novo chat e histórico lateral.
+- Campo de mensagem adaptado à área disponível quando o teclado abre; seletor de estilo compacto para imagens.
+- Contraste, alvos de toque, nomes acessíveis e navegação por teclado revisados.
+- Nova capa do PDF e lista de materiais preservadas nos aplicativos instalados.
+
+<p align="center">
+  <img src="assets/editor-mobile.png" alt="Editor no celular com ferramentas compactas e navegação inferior" width="300">
+  <img src="assets/fia-mobile.png" alt="Tela inicial da Fia no celular, com novo chat, histórico e campo de mensagem" width="300">
+</p>
+
 ## Novidades da versão 1.1.3
 
 - **1.000 modelos prontos refeitos**, 100 em cada categoria: Bichinhos, Comidinhas, Carinhas e corações, Pessoas e profissões, Fantasia e pessoas em ação, Lazer, festas e música, Natureza, céu e paisagens, Lugares e transportes, Roupas, casa e objetos, e Mãos, símbolos e sinais. Desenhos do Fluent Emoji da Microsoft (licença MIT), convertidos em gráficos de 40 × 40 pontos, com nomes e palavras de busca em português.

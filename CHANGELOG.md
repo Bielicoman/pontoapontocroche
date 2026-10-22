@@ -1,5 +1,15 @@
 # Histórico do Ponto a Ponto
 
+## 1.1.4
+
+- Editor adaptado para celulares de 320px, dobráveis fechados/abertos e tablets. Painéis têm espaço próprio, preservando a área visível do gráfico.
+- Ferramentas secundárias agrupadas em Mais ferramentas; menu de opções do topo e acesso direto à Fia no editor.
+- Corrigida a distinção entre dúvidas de crochê e dúvidas sobre as telas do aplicativo, na Fia online e local.
+- Fia com chat de tela inteira no celular, respostas progressivas, copiar, parar mantendo o trecho recebido, histórico lateral e compositor que acompanha a área visível da tela.
+- Alvos de toque e contraste revistos em temas claro e escuro; nomes acessíveis e estados dos controles ajustados.
+- Mantidas a nova capa do PDF, a lista de materiais, as notas sobre o acréscimo de fio e o nome Branco gelo.
+
+
 ## 1.1.3
 
 Esta versão atualiza o aplicativo web, Windows (instalador e portátil), macOS (Intel e Apple Silicon) e Android.
@@ -11,7 +21,6 @@ Esta versão atualiza o aplicativo web, Windows (instalador e portátil), macOS 
 - "Voltar ao padrão" nas abas Tamanho, Cores, Imagem e Ponto: volta ao estado de quando o gráfico foi aberto.
 - Fia: guia do app baseado nas telas reais; dúvidas de uso usam só esse guia e a Fia não inventa telas, menus ou funções.
 - Correções: barra de busca dos modelos sem desenhos vazando ao rolar; avisos com "Desfazer" visíveis por cima das janelas.
- Histórico do Ponto a Ponto
 
 ## 1.1.2
 
