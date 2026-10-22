@@ -39,7 +39,7 @@ As cores são editáveis; variações de paleta não são contadas como novos de
 | **Windows 10/11 · 64 bits** | [Instalador](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Windows.exe) · [Portátil](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Windows-portatil.exe) |
 | **Mac com chip Apple · macOS 12+** | [Baixar DMG para M1, M2, M3 e posteriores](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Mac-arm64.dmg) |
 | **Mac Intel · macOS 12+** | [Baixar DMG Intel](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Mac-x64.dmg) |
-| **Android** | [Baixar APK](https://github.com/Bielicoman/pontoapontocroche/releases/download/v1.1.2/PontoAPonto-Android.apk) (versão 1.1.2; a 1.1.3 para Android sai após o teste no emulador) |
+| **Android** | [Baixar APK](https://github.com/Bielicoman/pontoapontocroche/releases/latest/download/PontoAPonto-Android.apk) |
 | **iPhone e iPad** | [Abrir no Safari](https://pontoapontocroche.vercel.app/app/) → Compartilhar → Adicionar à Tela de Início |
 | **Qualquer computador** | [Usar no navegador](https://pontoapontocroche.vercel.app/app/) |
 
