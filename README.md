@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/capa.svg" alt="Ponto a Ponto — sua foto vira gráfico de crochê" width="100%"></p>
+<p align="center"><img src="assets/capa.svg" alt="Ponto a Ponto — sua foto vira gráfico de crochê" width="100%"></p>
 
 <p align="center">
   <a href="https://pontoapontocroche.vercel.app/app/"><img alt="Abrir aplicativo" src="https://img.shields.io/badge/Abrir_aplicativo-d9694a?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
@@ -24,9 +24,10 @@ O editor funciona sem cadastro. Entre com e-mail e senha quando quiser sincroniz
 | Para criar | Para crochetar |
 |---|---|
 | Converter uma foto em uma grade de pontos | Contar pontos e acompanhar cada carreira |
-| Buscar entre **1.000 desenhos diferentes** | Calcular dimensões pela sua amostra |
+| Buscar entre **1.000 desenhos diferentes**, 100 em cada uma das 10 categorias | Calcular dimensões pela sua amostra |
 | Editar as cores e montar nomes ou frases | Estimar fio, consultar Tex e agulha |
 | Ajustar o modelo antes de abrir no editor | Exportar **PDF, PNG e projeto editável** |
+| Criar, importar e exportar **os seus próprios modelos** | Ligar ou soltar largura e altura, com − / + e campo para digitar |
 | Conversar com a **Fia**, com conta e conexão | Guardar projetos no aparelho e sincronizar na nuvem |
 
 As cores são editáveis; variações de paleta não são contadas como novos desenhos. O editor e a biblioteca continuam disponíveis sem internet após o primeiro carregamento. As estimativas de tamanho e fio dependem da amostra e do material.
@@ -46,19 +47,37 @@ No Mac, use **Ajustes do Sistema → Privacidade e Segurança** para permitir a 
 
 A Fia online conversa e cria imagens por modelos de IA gratuitos: Z-Image-Turbo no Hugging Face e, quando disponível, fila comunitária do AI Horde. Há cotas, filas e possíveis interrupções; nenhum plano pago é acionado automaticamente. Conta e internet são necessárias. Novo chat e histórico permitem retomar ou apagar conversas salvas neste aparelho. Os pedidos online passam por Vercel/Groq e pelos provedores de imagem; a sincronização de projetos usa Firebase. A opção de IA local nos instaladores de computador depende de baixar modelos.
 
+## Novidades da versão 1.1.3
+
+- **1.000 modelos prontos refeitos**, 100 em cada categoria: Bichinhos, Comidinhas, Carinhas e corações, Pessoas e profissões, Fantasia e pessoas em ação, Lazer, festas e música, Natureza, céu e paisagens, Lugares e transportes, Roupas, casa e objetos, e Mãos, símbolos e sinais. Desenhos do Fluent Emoji da Microsoft (licença MIT), convertidos em gráficos de 40 × 40 pontos, com nomes e palavras de busca em português.
+- **Meus modelos:** salve o gráfico aberto como modelo, importe um backup, um arquivo de projeto ou imagens, e exporte os seus modelos.
+- **Controles mais precisos:** botões − e + e campo para digitar em todos os sliders e números; largura e altura na mesma escala.
+- **Link entre largura e altura** (e entre pontos e carreiras da amostra): ligado, uma medida acompanha a outra; solto, cada uma muda sozinha.
+- **Voltar ao padrão** em cada aba (Tamanho, Cores, Imagem e Ponto).
+- **Fia mais confiável sobre o app:** responde dúvidas de uso só com o guia real das telas e botões, sem inventar funções.
+- Correções: a barra de busca dos modelos não deixa mais os desenhos aparecerem por cima ao rolar, e os avisos com "Desfazer" aparecem por cima das janelas abertas.
+
+## Novidades da versão 1.1.2
+
+- Cor do texto com seletor livre e cores da paleta, prévia imediata e aplicação no gráfico.
+- Fia com novo chat, histórico local, continuação de conversas e exclusão.
+- Imagens online gratuitas com estilos definidos: Para gráfico, Ilustração, Amigurumi e Livre. A opção 3D simples usa composições limitadas.
+- Documentação de privacidade, termos, IA, direitos, segurança, MIT e créditos, disponível no site e dentro dos apps.
+- Primeira abertura no computador com acesso à Fia online sem baixar os modelos locais. IA online requer conta e internet e está sujeita a cotas e filas.
+
 ## Veja por dentro
 
 ### Um ponto de partida simples
 
-![Tela inicial do aplicativo](docs/assets/inicio.png)
+![Tela inicial do aplicativo](assets/inicio.png)
 
 ### Uma biblioteca para explorar
 
-![Biblioteca de modelos com filtros](docs/assets/biblioteca.png)
+![Biblioteca de modelos com filtros](assets/biblioteca.png)
 
 ### Seu gráfico, suas cores
 
-![Editor com gráfico, cores e carreiras](docs/assets/editor.png)
+![Editor com gráfico, cores e carreiras](assets/editor.png)
 
 ## Ajuda e novidades
 
