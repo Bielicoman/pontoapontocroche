@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/capa.svg" alt="Ponto a Ponto — sua foto vira gráfico de crochê" width="100%"></p>
+<p align="center"><img src="docs/assets/capa.svg" alt="Ponto a Ponto — sua foto vira gráfico de crochê" width="100%"></p>
 
 <p align="center">
   <a href="https://pontoapontocroche.vercel.app/app/"><img alt="Abrir aplicativo" src="https://img.shields.io/badge/Abrir_aplicativo-d9694a?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
@@ -44,21 +44,21 @@ As cores são editáveis; variações de paleta não são contadas como novos de
 
 No Mac, use **Ajustes do Sistema → Privacidade e Segurança** para permitir a primeira abertura, caso seja solicitado. Os aplicativos de computador ainda não possuem certificado comercial de distribuição.
 
-A criação de imagens com IA acontece no aplicativo de computador e exige baixar os modelos. A conversa da Fia na web requer conta e internet. As mensagens online são processadas pela Groq através da Vercel; a sincronização de projetos usa Firebase.
+A Fia online conversa e cria imagens por modelos de IA gratuitos: Z-Image-Turbo no Hugging Face e, quando disponível, fila comunitária do AI Horde. Há cotas, filas e possíveis interrupções; nenhum plano pago é acionado automaticamente. Conta e internet são necessárias. Novo chat e histórico permitem retomar ou apagar conversas salvas neste aparelho. Os pedidos online passam por Vercel/Groq e pelos provedores de imagem; a sincronização de projetos usa Firebase. A opção de IA local nos instaladores de computador depende de baixar modelos.
 
 ## Veja por dentro
 
 ### Um ponto de partida simples
 
-![Tela inicial do aplicativo](assets/inicio.png)
+![Tela inicial do aplicativo](docs/assets/inicio.png)
 
 ### Uma biblioteca para explorar
 
-![Biblioteca de modelos com filtros](assets/biblioteca.png)
+![Biblioteca de modelos com filtros](docs/assets/biblioteca.png)
 
 ### Seu gráfico, suas cores
 
-![Editor com gráfico, cores e carreiras](assets/editor.png)
+![Editor com gráfico, cores e carreiras](docs/assets/editor.png)
 
 ## Ajuda e novidades
 
@@ -67,3 +67,13 @@ A criação de imagens com IA acontece no aplicativo de computador e exige baixa
 - [Relatar um problema](https://github.com/Bielicoman/pontoapontocroche/issues/new/choose)
 
 <p align="center"><sub>Criado por Alex Ascencio · Bielicoman</sub></p>
+
+## Desenvolvimento
+
+O código-fonte está organizado em `web/`, `api/`, `lib/`, `desktop/`, `android/` e `tools/`. Consulte o [guia de desenvolvimento e publicação](docs/DEVELOPMENT.md) para comandos, arquitetura, IA local e verificações. Os instaladores públicos ficam em um repositório separado.
+
+## Transparência e licença
+
+O código e a documentação originais são disponibilizados sob a [licença MIT](LICENSE), preservados os direitos de terceiros. Consulte a [central de transparência](https://pontoapontocroche.vercel.app/app/legal/), com privacidade, termos, armazenamento, uso de IA, direitos e exclusão de dados, segurança e créditos.
+
+Contato: [ascencioalexgabriel@gmail.com](mailto:ascencioalexgabriel@gmail.com).
