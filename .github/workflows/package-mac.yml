@@ -1,0 +1,71 @@
+name: Publicar aplicativos Mac
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: Versão preparada para empacotar
+        required: true
+        default: v1.1.5
+        type: string
+permissions:
+  contents: write
+jobs:
+  package:
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {os: macos-15, arch: arm64, base_sha: e9e1a24588d952eae4383a431502d042f740b9fb0f7c75957a28e108ed363d72}
+          - {os: macos-15-intel, arch: x64, base_sha: 230d03623f272689ee5299da0f39aec0603129a778bde536caf7e24880334924}
+    runs-on: ${{ matrix.os }}
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ARCH: ${{ matrix.arch }}
+      RELEASE: ${{ inputs.release }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - name: Recuperar motores já distribuídos e atualização do aplicativo
+        run: |
+          gh release download v1.1.3 --repo "$GITHUB_REPOSITORY" --pattern "PontoAPonto-Mac-$ARCH.dmg" --dir base
+          echo '${{ matrix.base_sha }}  base/PontoAPonto-Mac-${{ matrix.arch }}.dmg' | shasum -a 256 -c -
+          gh release download "$RELEASE" --repo "$GITHUB_REPOSITORY" --pattern PontoAPonto-client-update.zip --dir update
+          gh release download "$RELEASE" --repo "$GITHUB_REPOSITORY" --pattern client-update.sha256 --dir update
+          (cd update && shasum -a 256 -c client-update.sha256)
+          unzip -q update/PontoAPonto-client-update.zip -d update/payload
+      - name: Preparar aplicativo atual com motores nativos preservados
+        run: |
+          hdiutil attach "base/PontoAPonto-Mac-$ARCH.dmg" -readonly -nobrowse -mountpoint "$RUNNER_TEMP/ponto-base"
+          mkdir -p work
+          ditto "$RUNNER_TEMP/ponto-base/Ponto a Ponto.app" "$RUNNER_TEMP/Ponto a Ponto.app"
+          hdiutil detach "$RUNNER_TEMP/ponto-base"
+          npm install --prefix pack-tools --no-audit --no-fund @electron/asar@3.4.1
+          node - <<'JS'
+          const asar=require('./pack-tools/node_modules/@electron/asar');
+          asar.extractAll(process.env.RUNNER_TEMP+'/Ponto a Ponto.app/Contents/Resources/app.asar','work');
+          JS
+          rm -rf work/www
+          ditto update/payload/desktop work
+          node -e "const p=require('./work/package.json');if('v'+p.version!==process.env.RELEASE)throw Error('Versão incorreta'); console.log('Versão preparada',p.version)"
+          test -x "work/motor/$ARCH/sd-cli"
+          "work/motor/$ARCH/sd-cli" --help >/dev/null
+          cd work
+          npm ci --no-audit --no-fund
+          npx electron-builder --mac dmg --${{ matrix.arch }} --publish never
+      - name: Verificar o pacote realmente entregue
+        run: |
+          python3 -m venv "$RUNNER_TEMP/ponto-qa"
+          "$RUNNER_TEMP/ponto-qa/bin/pip" install playwright
+          "$RUNNER_TEMP/ponto-qa/bin/python" update/payload/tools/test-desktop.py work/dist "qa/mac-$ARCH" --cloud
+          shasum -a 256 "work/dist/PontoAPonto-Mac-$ARCH.dmg" > "qa/mac-$ARCH/SHA256SUMS.txt"
+      - name: Anexar instalador verificado à versão preparada
+        run: gh release upload "$RELEASE" "work/dist/PontoAPonto-Mac-$ARCH.dmg" --repo "$GITHUB_REPOSITORY" --clobber
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verificacao-mac-${{ matrix.arch }}
+          path: qa/
+          retention-days: 2
+          if-no-files-found: error
