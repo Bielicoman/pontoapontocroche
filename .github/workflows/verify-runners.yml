@@ -1,0 +1,13 @@
+name: Verificar empacotadores gratuitos
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  verify:
+    timeout-minutes: 1
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-15, macos-15-intel]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - run: node --version
