@@ -5,7 +5,7 @@
   <a href="https://github.com/Bielicoman/pontoapontocroche/releases/latest"><img alt="Baixar última versão" src="https://img.shields.io/github/v/release/Bielicoman/pontoapontocroche?style=for-the-badge&amp;label=Baixar&amp;color=8fa98a"></a>
 </p>
 
-<p align="center"><b>Um ateliê de gráficos de crochê no seu aparelho.</b><br>Transforme fotos, escolha entre 1.000 desenhos e personalize cada cor antes de começar.</p>
+<p align="center"><b>Um ateliê de gráficos de crochê no seu aparelho.</b><br>Transforme fotos, escolha entre 10.000 desenhos e personalize cada cor antes de começar.</p>
 
 <p align="center"><a href="#comece-aqui">Comece aqui</a> · <a href="#o-que-você-pode-fazer">Recursos</a> · <a href="#baixe-para-seu-aparelho">Downloads</a> · <a href="#veja-por-dentro">Veja por dentro</a></p>
 
@@ -24,7 +24,7 @@ O editor funciona sem cadastro. Entre com e-mail e senha quando quiser sincroniz
 | Para criar | Para crochetar |
 |---|---|
 | Converter uma foto em uma grade de pontos | Contar pontos e acompanhar cada carreira |
-| Buscar entre **1.000 desenhos diferentes**, 100 em cada uma das 10 categorias | Calcular dimensões pela sua amostra |
+| Buscar entre **10.000 desenhos diferentes**, organizados por categoria | Calcular dimensões pela sua amostra |
 | Editar as cores e montar nomes ou frases | Estimar fio, consultar Tex e agulha |
 | Ajustar o modelo antes de abrir no editor | Exportar **PDF, PNG e projeto editável** |
 | Criar, importar e exportar **os seus próprios modelos** | Ligar ou soltar largura e altura, com − / + e campo para digitar |
@@ -54,6 +54,17 @@ No editor, a barra de baixo dá acesso a **Ajustes**, **Gráfico**, **Cores**, *
 Use **Mais ferramentas** (três pontos na barra do gráfico) para texto, emojis, imagens, desfazer, refazer, zoom e visualização. O menu de três pontos no topo reúne tema e ajuda.
 
 A Fia usa a tela inteira no telefone. **Novo chat** começa outra conversa; **Histórico** abre a lista para retomar ou apagar conversas salvas neste aparelho. **Copiar resposta** copia o texto e **Parar** interrompe a resposta. Para imagens, escolha o estilo antes de enviar.
+
+## Novidades da versão 1.1.5
+
+- Biblioteca de **10.000 modelos**, com os desenhos originais preservados e seleção de ilustrações coloridas de várias coleções.
+- **10 categorias amplas, com 1.000 modelos em cada**, reunidas numa única fileira horizontal. A busca por nome continua disponível.
+- **171 texturas e estampas originais**: ondas orgânicas, colmeias, tramas, xadrez, listras, chevrons e mosaicos, com cores editáveis.
+- Desenhos do mesmo assunto aparecem próximos em **Todos**, para comparar estilos e variações.
+- **Criar nome ou frase** ganha acesso destacado e estúdio próprio. A galeria mostra os desenhos sem um painel de controles ocupando a tela.
+- Autoria, coleção e licença acompanham cada desenho, os projetos e as exportações PNG/PDF. A MIT do software não substitui as licenças das artes e os direitos das marcas.
+
+Os pacotes para Windows, Mac Intel, Mac Apple Silicon e Android foram gerados e verificados. Baixe pela [página oficial de versões](https://github.com/Bielicoman/pontoapontocroche/releases/latest).
 
 ## Novidades da versão 1.1.4
 
@@ -110,7 +121,7 @@ A Fia usa a tela inteira no telefone. **Novo chat** começa outra conversa; **Hi
 
 ## Desenvolvimento
 
-O código-fonte está organizado em `web/`, `api/`, `lib/`, `desktop/`, `android/` e `tools/`. Consulte o [guia de desenvolvimento e publicação](docs/DEVELOPMENT.md) para comandos, arquitetura, IA local e verificações. Os instaladores públicos ficam em um repositório separado.
+O código-fonte está organizado em `web/`, `api/`, `lib/`, `desktop/`, `android/` e `tools/`. Consulte o [guia de desenvolvimento e publicação](docs/DEVELOPMENT.md) para comandos, arquitetura, IA local e verificações. O repositório público oficial concentra a apresentação do produto, a documentação e os instaladores. Credenciais e arquivos privados de desenvolvimento não integram essa publicação.
 
 ## Transparência e licença
 

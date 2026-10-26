@@ -1,5 +1,18 @@
 # Histórico do Ponto a Ponto
 
+## 1.1.5 — 26 de outubro de 2026
+
+Atualização do aplicativo web, Windows (instalador e portátil), macOS (Intel e Apple Silicon) e Android, com pacotes verificados em cada plataforma.
+
+- Catálogo reorganizado em 10 categorias amplas e equilibradas, com 1.000 modelos em cada e 10.000 no total; preserva os desenhos dos 1.000 modelos Fluent anteriores.
+- Seleção de ilustrações coloridas e logos, com desenhos relacionados agrupados por assunto em Todos.
+- 171 estampas originais, incluindo ondas, colmeias, tramas e mosaicos geométricos, dentro do catálogo de 10.000 modelos.
+- Sincronização mantém os créditos das ilustrações; regras da nuvem validam a atribuição sem recusar projetos licenciados.
+- Uma fileira horizontal de categorias, busca por nome, filtros de tema e cores e paginação compacta.
+- Gerador de nome ou frase destacado, com estúdio próprio, separado da lista de modelos.
+- Autoria, coleção, licença e origem mantidas nos projetos e exportações PNG/PDF.
+- Central de transparência com textos integrais e créditos das coleções, incluindo condições específicas das artes CC BY e CC BY-SA.
+
 ## 1.1.4
 
 - Editor adaptado para celulares de 320px, dobráveis fechados/abertos e tablets. Painéis têm espaço próprio, preservando a área visível do gráfico.

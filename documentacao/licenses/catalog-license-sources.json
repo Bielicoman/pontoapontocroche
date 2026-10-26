@@ -1,0 +1,135 @@
+[
+  {
+    "file": "Fluent-Emoji-MIT.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/LICENSE",
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+    "bytes": 1141,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Noto-Emoji-2D-Apache-notice.txt",
+    "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/e20cbc2bbec1926686be9f9bee7d1d2cfa1fea0e/2D/svg/LICENSE",
+    "sha256": "611ceab36dae96644ca84e8ace6873821790192bf6f73b0d0624a21b24b4b332",
+    "bytes": 574,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Twemoji-CC-BY-4.0.txt",
+    "url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/LICENSE-GRAPHICS",
+    "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c",
+    "bytes": 18524,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Game-Icons-authors.txt",
+    "url": "https://raw.githubusercontent.com/game-icons/icons/82d948812bfe3f269ef8f731dcdb07b08160edc4/license.txt",
+    "sha256": "fac95252798668fab5ea2cb08338f2ebc6bf894a72b19a15af1ca62f0a6d2e79",
+    "bytes": 1421,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "CC-BY-3.0.txt",
+    "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/main/legacy/legalcode/by_3.0.txt",
+    "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+    "bytes": 19467,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Simple-Icons-CC0.txt",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/LICENSE.md",
+    "sha256": "9046848b63a5c92bff14e4accca80bd987e0623b74adf9226ce5198d312b79d5",
+    "bytes": 6569,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Simple-Icons-DISCLAIMER.md",
+    "url": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/DISCLAIMER.md",
+    "sha256": "5757a1f28eff735a8b5e7425478f367812d71e974530f5bedd01219480965f4a",
+    "bytes": 4604,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Flag-Icons-MIT.txt",
+    "url": "https://raw.githubusercontent.com/lipis/flag-icons/ac7e0eb3259eb62aa6100c435607e2fe03896a97/LICENSE",
+    "sha256": "8f1195d55a2fd315a07d812328470ca9ba2abb78c8d317ff19619d5125e00cea",
+    "bytes": 1087,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Material-Design-Icons.txt",
+    "url": "https://raw.githubusercontent.com/Templarian/MaterialDesign/2424e748e0cc63ab7b9c095a099b9fe239b737c0/LICENSE",
+    "sha256": "3bae6305bcaa6d10219b999f65c342034c2d40b1c0e8567fa08605e73ccba829",
+    "bytes": 992,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "Unicode-CLDR.txt",
+    "url": "https://www.unicode.org/license.txt",
+    "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+    "bytes": 1995,
+    "retrieved": "2026-10-22"
+  },
+  {
+    "file": "OpenMoji-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/LICENSE.txt",
+    "sha256": "5e436ff8ffbb77d8607220e9bce20c8915d860010feeb6c1ebef5a85688e9b39",
+    "bytes": 20137,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "EmojiOne-v1-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/joypixels/emojione-legacy/master/LICENSE.md",
+    "sha256": "eafb22dc4730381e2f3744f43029091fed112d7a3169bda9c510ef695b462454",
+    "bytes": 547,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "EmojiTwo-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/EmojiTwo/emojitwo/master/LICENSE.md",
+    "sha256": "11fd9abeb632939ed40ffbfef71a034d18ed5b2d804ab9c296b1b41e5fb88a25",
+    "bytes": 732,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "FxEmoji-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/mozilla/fxemoji/gh-pages/LICENSE.md",
+    "sha256": "870f6b7eecae0aa67ceb208589e14878b850c5421794fe9b8ec1e9068b009e67",
+    "bytes": 1919,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "Streamline-README.md",
+    "url": "https://raw.githubusercontent.com/webalys-hq/streamline-vectors/master/README.md",
+    "sha256": "c0a0a82fcde25a068392256e51b8a32bda4d95dcdc7575035d301d0c78c4b6d3",
+    "bytes": 1332,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "CC-BY-SA-4.0.txt",
+    "url": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/master/LICENSE.txt",
+    "sha256": "5e436ff8ffbb77d8607220e9bce20c8915d860010feeb6c1ebef5a85688e9b39",
+    "bytes": 20137,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "CC-BY-4.0.txt",
+    "url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/LICENSE-GRAPHICS",
+    "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c",
+    "bytes": 18524,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "Fluent-System-Icons-MIT.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/fluentui-system-icons/main/LICENSE",
+    "sha256": "69bc45dc42b9acb96a69823adbc6ae538374e3c0bde169b855b32c48eaaef52f",
+    "bytes": 1078,
+    "retrieved": "2026-10-25"
+  },
+  {
+    "file": "Flat-Color-Icons-MIT.txt",
+    "url": "https://raw.githubusercontent.com/icons8/flat-Color-icons/master/LICENSE.md",
+    "sha256": "0c029819d69e43042904a3e9d12d25934d08398ba739e4364d61519aa1c2711c",
+    "bytes": 347,
+    "retrieved": "2026-10-25"
+  }
+]
