@@ -49,6 +49,7 @@ jobs:
           rm -rf work/www
           ditto update/payload/desktop work
           node -e "const p=require('./work/package.json');if('v'+p.version!==process.env.RELEASE)throw Error('Versão incorreta'); console.log('Versão preparada',p.version)"
+          chmod +x "work/motor/$ARCH/sd-cli"
           test -x "work/motor/$ARCH/sd-cli"
           "work/motor/$ARCH/sd-cli" --help >/dev/null
           cd work
