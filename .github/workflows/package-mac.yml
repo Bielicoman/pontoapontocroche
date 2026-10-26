@@ -54,7 +54,7 @@ jobs:
           "work/motor/$ARCH/sd-cli" --help >/dev/null
           cd work
           npm ci --no-audit --no-fund
-          npx electron-builder --mac dmg --${{ matrix.arch }} --publish never
+          npx electron-builder --mac dmg --${{ matrix.arch }} --publish never -c.publish.provider=github -c.publish.owner=Bielicoman -c.publish.repo=pontoapontocroche
       - name: Verificar o pacote realmente entregue
         run: |
           python3 -m venv "$RUNNER_TEMP/ponto-qa"
